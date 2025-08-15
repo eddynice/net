@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+}
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+    }
+    p{
+        color: white;
+        font-size: 30px;
+    }
+    .paul{
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 20px;
+    }
+      #john{
+        color: white;
+        font-size: 20px;
+        text-align: right;
+        margin-top: 20px;
+        border: 1px solid red;
+        
+    }

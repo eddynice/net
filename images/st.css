@@ -1,0 +1,40 @@
+input[type=submit] {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+input[type=submit]:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  outline: none;
+} 
+input[type=checkbox] {
+  margin: 10px 0;
+}
+input[type=checkbox]:checked {
+  background-color: #4CAF50; /* Green background when checked */
+}
+input[type=checkbox]:focus {
+  outline: 2px solid #4CAF50; /* Green outline on focus */
+}
