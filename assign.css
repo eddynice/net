@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    height: 40px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+} 
+.nav-list li{
+    margin: 0 10px;
+    cursor: pointer;
+}  
+.nav-buttons{
+    display: flex;
+    gap: 10px;
+}
+.nav-buttons input{
+    padding: 10px 10px;
+    background-color: rgb(102, 105, 104);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover{
+    background-color: #4f1818;
+}
